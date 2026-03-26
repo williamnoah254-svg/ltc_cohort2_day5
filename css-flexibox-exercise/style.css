@@ -1,0 +1,22 @@
+.card{
+    background-color:white;
+    border: radius 20px;;
+    padding:20px;
+    box-shadow:20px;
+    border-top: 20px;
+    align-items: center;
+
+}
+
+body{
+box-sizing: border-box;
+background-color:whitesmoke;
+
+}
+
+header{
+    align-items: center;
+    color: black;
+
+
+}
