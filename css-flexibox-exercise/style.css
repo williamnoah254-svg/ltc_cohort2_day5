@@ -1,22 +1,62 @@
-.card{
-    background-color:white;
-    border: radius 20px;;
-    padding:20px;
-    box-shadow:20px;
-    border-top: 20px;
-    align-items: center;
-
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
 }
 
 body{
-box-sizing: border-box;
-background-color:whitesmoke;
-
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
-
 header{
-    align-items: center;
-    color: black;
-
-
+    text-align: center;
 }
+header h1{
+    color: darkslategray;
+    font-size: 1.5rem;
+}
+header p{
+    color: lightgray;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px black;
+    border-top: 2px solid red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card div{
+    background-color: purple;
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    color: white;
+}
+.card h2{
+    color: darkred;
+}
+.card p{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+.card ul{
+    list-style-type:none;
+}
+.card ul li{
+    background-color: lightcyan;
+    border-radius: 1opx;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.card a{
+    text-decoration: none;
+    background-color: darkslategrey;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card a:hover{background-color: darkgoldenrod;}
+
