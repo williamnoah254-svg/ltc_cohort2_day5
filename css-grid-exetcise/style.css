@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:auto;
+    gap: 10px 20px;
+}
+main section{
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+#p1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+header h1{
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}

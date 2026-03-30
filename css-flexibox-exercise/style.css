@@ -64,15 +64,5 @@ header p{
     padding: 5px;
     border-radius: 10px;
 }
-.card a:hover{background-color: darkgoldenrod;
-}
-main{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-flow: row wrap;
+.card a:hover{background-color: darkgoldenrod;}
 
-}
