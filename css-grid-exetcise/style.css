@@ -36,3 +36,6 @@ header h1{
     "YPN1" 0,
     "YPN2" 0;
 }
+@media screen and (max-width:600px) {
+    h1(font-size: 4.5rem;)
+}
