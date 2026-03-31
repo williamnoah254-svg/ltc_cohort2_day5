@@ -29,9 +29,16 @@
 // console.log(typeof(myAge));
 // console.log(typeof(isRaining));
 
-let num1 =prompt("enter num1")
-let num2 =prompt("enter num2")
+let button = document.getElementById("button");
 
-let results;
-results = Number(num1)+Number(num2)
-console.log("your resluts is:",results)
+button.addEventListener("click",function(){
+
+let num1 = document.getElementById("num1").value;
+let num2 = document.getElementById("num2").value;
+
+let results = Number(num1)+Number(num2);
+console.log("your results is:",results);
+
+let output= document.getElementById("results");
+output.innerText = `your results is: ${results}`
+})

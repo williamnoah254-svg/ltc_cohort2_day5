@@ -1,4 +1,4 @@
-
+function calc(){
   let name = document.getElementById("name").value;
   let age = Number(document.getElementById("age").value);
   let course = document.getElementById("course").value;
@@ -19,6 +19,8 @@ Total Marks: ${total}
 Average: ${average}
   `;
 
- function displayResult() {
-  document.getElementById("output").textContent = result;
+//  function displayResult() {
+//   document.getElementById("output").textContent = result;
+// }
+console.log (result)
 }
