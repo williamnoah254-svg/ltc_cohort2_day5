@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <h2>Student Form</h2>
+
+<form onsubmit="handleSubmit(event)">
+  <input type="text" id="name" placeholder="Student Name" required>
+  <input type="number" id="age" placeholder="Age" required>
+  <input type="text" id="course" placeholder="Course" required>
+
+  <input type="number" id="html" placeholder="HTML Marks" required>
+  <input type="number" id="css" placeholder="CSS Marks" required>
+  <input type="number" id="js" placeholder="JavaScript Marks" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+<div id="output"></div>
+
+</body>
+</html>
