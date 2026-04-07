@@ -145,23 +145,23 @@
 // el.textContent="hello world"
 // console.log(el)
 
-let fname ="john"
-let el = document.querySelector("h1")
-console.log(el)
-el.innerText= `hello ${fname}`
-el.classList.add("enlarge")
+// let fname ="john"
+// let el = document.querySelector("h1")
+// console.log(el)
+// el.innerText= `hello ${fname}`
+// el.classList.add("enlarge")
 
-let el2 = document.querySelector("div");
-const p =document.createElement("p")
-let paragraph = `Hello this a paragraph from javascrpt`
-p.innerText=paragraph;
-document.body.appendChild(p) 
-
-
-let el3 =document.querySelector(".p3")
+// let el2 = document.querySelector("div");
+// const p =document.createElement("p")
+// let paragraph = `Hello this a paragraph from javascrpt`
+// p.innerText=paragraph;
+// document.body.appendChild(p) 
 
 
-let el4=document.querySelector("button")
-el4.addEventListener("click",function(){
-el3.classList.add("hide")
-}) 
+// let el3 =document.querySelector(".p3")
+
+
+// let el4=document.querySelector("button")
+// el4.addEventListener("click",function(){
+// el3.classList.add("hide")
+// }) 

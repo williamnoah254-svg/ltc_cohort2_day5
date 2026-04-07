@@ -1,26 +1,52 @@
-function calc(){
-  let name = document.getElementById("name").value;
-  let age = Number(document.getElementById("age").value);
-  let course = document.getElementById("course").value;
+// function calc(){
+//   let name = document.getElementById("name").value;
+//   let age = Number(document.getElementById("age").value);
+//   let course = document.getElementById("course").value;
 
-  let html = Number(document.getElementById("html").value);
-  let css = Number(document.getElementById("css").value);
-  let js = Number(document.getElementById("js").value);
+//   let html = Number(document.getElementById("html").value);
+//   let css = Number(document.getElementById("css").value);
+//   let js = Number(document.getElementById("js").value);
 
-  let total = html + css + js;
-  let average = total / 3;
+//   let total = html + css + js;
+//   let average = total / 3;
 
-  let result = `
-Student Name: ${name}
-Age: ${age}
-Course: ${course}
+//   let result = `
+// Student Name: ${name}
+// Age: ${age}
+// Course: ${course}
 
-Total Marks: ${total}
-Average: ${average}
-  `;
+// Total Marks: ${total}
+// Average: ${average}
+//   `;
 
-//  function displayResult() {
-//   document.getElementById("output").textContent = result;
+// //  function displayResult() {
+// //   document.getElementById("output").textContent = result;
+// // }
+// console.log (result)
 // }
-console.log (result)
-}
+
+
+
+
+// Exercise 7th Tuesday
+let stationeries = ["Books","Ruler","Pens","Caculators","Rubber","Glue"];
+stationeries.forEach((stationery)=>{
+let el = document.createElement("li")
+el.innerText =stationery;
+document.body.appendChild(el)
+  console.log(stationery)
+  
+  
+})
+
+
+
+stationeries[1] = "Books";
+console.log(stationeries)
+
+stationeries [2] = "Ruler";
+console.log(stationeries)
+
+let paragraph = "stationery"
+p.innerText =""
+
